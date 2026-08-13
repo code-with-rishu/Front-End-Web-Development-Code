@@ -16,22 +16,16 @@ Welcome to my **HTML CODES** repository! This is a comprehensive collection of *
 
 ## 📦 Project Highlights (What's Inside)
 
-### 🎮 Games & Simulators
+
 * **Games Folder**: A collection of fun, interactive, and responsive browser-based mini-games.
 * **Hacking Simulator**: A terminal-style visual simulation that mimics a classic hacking interface.
-
-### 🛠️ Utility Tools & Apps
 * **Colour Palate Generator**: A handy tool to generate, lock, and explore beautiful color schemes for designs.
 * **Password Generator**: A secure tool to generate highly customizable, strong, and random passwords.
 * **Advanced Digital Clock**: A clean, modern clock interface displaying real-time updates.
 * **Typing Speed Checker**: An interactive web app to test and calculate words-per-minute (WPM) typing speed.
-
-### 💼 Portfolios & Professional Templates
 * **Personal Portfolio**: A modern, clean, and fully responsive website to showcase my skills and projects.
 * **Digital Resume**: A well-structured, neat web resume template for professional use.
 * **Student Registration Form**: A beautiful, styled form with frontend input fields for student data.
-
-### 🏢 Real-World & Training Projects
 * **Shree Palace Room Booking**: A complete frontend web interface designed for hotel and room reservations.
 * **Summer Training Project**: Core assignments and web layouts completed during my professional summer training.
 
