@@ -27,7 +27,7 @@ Welcome to my **HTML CODES** repository! This is a comprehensive collection of *
 * **Digital Resume**: A well-structured, neat web resume template for professional use.
 * **Student Registration Form**: A beautiful, styled form with frontend input fields for student data.
 * **Shree Palace Room Booking**: A complete frontend web interface designed for hotel and room reservations.
-* **Summer Training Project**: Core assignments and web layouts completed during my professional summer training.
+* **Online Gift Store (Named:- **Gift Bloom**)**: E-Commerce Website.
 
 ---
 
