@@ -70,32 +70,4 @@ document.addEventListener('DOMContentLoaded', () => {
             item.style.transform = 'translateX(0)';
         }, 800 + index * 80);
     });
-
-    const printBtn = document.querySelector('.print-btn');
-    if (printBtn) {
-        printBtn.addEventListener('mouseenter', () => {
-            printBtn.style.transform = 'translateY(-2px) scale(1.03)';
-            printBtn.style.boxShadow = '0 8px 20px rgba(59,130,246,0.4)';
-        });
-        printBtn.addEventListener('mouseleave', () => {
-            printBtn.style.transform = 'translateY(0) scale(1)';
-            printBtn.style.boxShadow = '0 4px 12px rgba(0,0,0,0.2)';
-        });
-    }
-
-    const downloadBtn = document.getElementById('downloadBtn');
-    if (downloadBtn) {
-        downloadBtn.addEventListener('click', () => {
-            const element = document.querySelector('.resume-container');
-            const opt = {
-                margin: 0,
-                filename: 'Rishu_Kushwaha_Resume.pdf',
-                image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
-                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
-            };
-            html2pdf().set(opt).from(element).save();
-        });
-    }
 });

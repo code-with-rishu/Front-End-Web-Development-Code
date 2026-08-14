@@ -29,32 +29,6 @@ body {
     min-height: 100vh;
 }
 
-.print-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 12px 24px;
-    background: var(--primary);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    transition: all 0.2s ease;
-}
-
-.print-btn:hover {
-    background: var(--accent);
-    transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(59, 130, 246, 0.3);
-}
-
 .resume-container {
     max-width: 100%;
     margin: 0 auto;
@@ -479,55 +453,5 @@ a.contact-item:hover {
 
     .side-column {
         min-width: auto;
-    }
-
-    .print-btn {
-        bottom: 10px;
-        right: 10px;
-        padding: 8px 14px;
-        font-size: 11px;
-    }
-}
-
-@media print {
-    body {
-        background: white;
-    }
-
-    .print-btn {
-        display: none !important;
-    }
-
-    .resume-container {
-        margin: 0;
-        max-width: 100%;
-        box-shadow: none;
-        border-radius: 0;
-    }
-
-    .resume-header {
-        padding: 18px 24px;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-    }
-
-    .resume-body {
-        padding: 16px 22px;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-    }
-
-    .avatar,
-    .project-item,
-    .skill-tag,
-    .proficiency-fill,
-    .section-title::after {
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-    }
-
-    @page {
-        margin: 0.5cm;
-        size: A4;
     }
 }
