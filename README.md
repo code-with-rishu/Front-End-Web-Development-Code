@@ -1,6 +1,6 @@
 # 🚀 HTML5, CSS3 & JavaScript Projects Collection
 
-Welcome to my **HTML CODES** repository! This is a comprehensive collection of **11 interactive web applications, frontend games, utility tools, and professional templates** that I built while mastering modern web development.
+Welcome to my **HTML CODES** repository! This is a comprehensive collection of **12 interactive web applications, frontend games, utility tools, and professional templates** that I built while mastering modern web development.
 
 ---
 
@@ -22,7 +22,8 @@ Welcome to my **HTML CODES** repository! This is a comprehensive collection of *
 * **Colour Palate Generator**: A handy tool to generate, lock, and explore beautiful color schemes for designs.
 * **Password Generator**: A secure tool to generate highly customizable, strong, and random passwords.
 * **Advanced Digital Clock**: A clean, modern clock interface displaying real-time updates.
-* **Typing Speed Checker**: An interactive web app to test and calculate words-per-minute (WPM) typing speed.
+*   **Typing Speed Checker**: An interactive web app to test and calculate words-per-minute (WPM) typing speed.
+*   **ToDo List**: A feature-rich task manager with add, delete, complete, filter (all/active/completed), clear completed, and LocalStorage persistence.
 * **Personal Portfolio**: A modern, clean, and fully responsive pportfolio to showcase my skills and projects.
 * **Digital Resume**: A well-structured, neat web resume template for professional use.
 * **Student Registration Form**: A beautiful, styled form with frontend input fields for student data.
