@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectItems = document.querySelectorAll('.project-item');
     const skillTags = document.querySelectorAll('.skill-tag');
     const proficiencyFills = document.querySelectorAll('.proficiency-fill');
-    const certItems = document.querySelectorAll('.cert-item');
     const linkItems = document.querySelectorAll('.link-item');
 
     sections.forEach((section, index) => {
@@ -61,17 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 600 + index * 150);
     });
 
-    certItems.forEach((item, index) => {
-        item.style.opacity = '0';
-        item.style.transform = 'translateX(-5px)';
-        item.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
-
-        setTimeout(() => {
-            item.style.opacity = '1';
-            item.style.transform = 'translateX(0)';
-        }, 700 + index * 100);
-    });
-
     linkItems.forEach((item, index) => {
         item.style.opacity = '0';
         item.style.transform = 'translateX(-5px)';
@@ -92,6 +80,22 @@ document.addEventListener('DOMContentLoaded', () => {
         printBtn.addEventListener('mouseleave', () => {
             printBtn.style.transform = 'translateY(0) scale(1)';
             printBtn.style.boxShadow = '0 4px 12px rgba(0,0,0,0.2)';
+        });
+    }
+
+    const downloadBtn = document.getElementById('downloadBtn');
+    if (downloadBtn) {
+        downloadBtn.addEventListener('click', () => {
+            const element = document.querySelector('.resume-container');
+            const opt = {
+                margin: 0,
+                filename: 'Rishu_Kushwaha_Resume.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff' },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+            };
+            html2pdf().set(opt).from(element).save();
         });
     }
 });

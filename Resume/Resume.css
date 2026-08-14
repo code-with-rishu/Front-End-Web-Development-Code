@@ -31,7 +31,7 @@ body {
 
 .print-btn {
     position: fixed;
-    top: 20px;
+    bottom: 20px;
     right: 20px;
     z-index: 1000;
     display: flex;
@@ -56,18 +56,18 @@ body {
 }
 
 .resume-container {
-    max-width: 900px;
-    margin: 40px auto;
+    max-width: 100%;
+    margin: 0 auto;
     background: white;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+    overflow: visible;
+    box-shadow: none;
 }
 
 .resume-header {
     background: linear-gradient(135deg, var(--primary) 0%, #1e3a5f 50%, var(--secondary) 100%);
     color: white;
-    padding: 45px 50px;
+    padding: 20px 28px;
     position: relative;
     overflow: hidden;
 }
@@ -107,10 +107,10 @@ body {
 }
 
 .name {
-    font-size: 44px;
+    font-size: 34px;
     font-weight: 800;
-    letter-spacing: -1.5px;
-    margin-bottom: 8px;
+    letter-spacing: -1px;
+    margin-bottom: 6px;
     line-height: 1.15;
     background: linear-gradient(135deg, #fff 0%, #e2e8f0 100%);
     -webkit-background-clip: text;
@@ -119,11 +119,11 @@ body {
 }
 
 .title {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 500;
     opacity: 0.9;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
+    margin-bottom: 12px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #93c5fd;
 }
@@ -131,14 +131,14 @@ body {
 .contact-info {
     display: flex;
     flex-wrap: wrap;
-    gap: 14px;
+    gap: 10px;
 }
 
 .contact-item {
     display: flex;
     align-items: center;
-    gap: 6px;
-    font-size: 13px;
+    gap: 4px;
+    font-size: 11px;
     opacity: 0.85;
     font-weight: 400;
     color: #e2e8f0;
@@ -156,19 +156,19 @@ a.contact-item:hover {
 
 .header-right {
     flex-shrink: 0;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .avatar {
-    width: 95px;
-    height: 95px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
 
@@ -181,8 +181,8 @@ a.contact-item:hover {
 
 .resume-body {
     display: flex;
-    padding: 40px 50px;
-    gap: 45px;
+    padding: 20px 28px;
+    gap: 24px;
 }
 
 .main-column {
@@ -195,7 +195,7 @@ a.contact-item:hover {
 }
 
 .section {
-    margin-bottom: 26px;
+    margin-bottom: 14px;
 }
 
 .section:last-child {
@@ -203,13 +203,13 @@ a.contact-item:hover {
 }
 
 .section-title {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: 1.5px;
     color: var(--primary);
-    margin-bottom: 14px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
     border-bottom: 2px solid var(--border);
     position: relative;
 }
@@ -226,15 +226,15 @@ a.contact-item:hover {
 }
 
 .summary-text {
-    font-size: 14px;
-    line-height: 1.75;
+    font-size: 12px;
+    line-height: 1.6;
     color: var(--text-light);
     text-align: justify;
 }
 
 .experience-item {
-    margin-bottom: 18px;
-    padding-left: 18px;
+    margin-bottom: 12px;
+    padding-left: 14px;
     border-left: 2px solid var(--border);
     transition: all 0.25s ease;
 }
@@ -253,23 +253,23 @@ a.contact-item:hover {
 }
 
 .job-title {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     color: var(--primary);
     margin-bottom: 3px;
 }
 
 .company {
-    font-size: 13px;
+    font-size: 11px;
     color: var(--accent);
     font-weight: 600;
 }
 
 .duration {
-    font-size: 12px;
+    font-size: 10px;
     color: var(--text-muted);
     display: block;
-    margin-top: 3px;
+    margin-top: 2px;
     font-weight: 500;
 }
 
@@ -280,30 +280,30 @@ a.contact-item:hover {
 
 .experience-details li {
     position: relative;
-    padding-left: 15px;
-    margin-bottom: 5px;
-    font-size: 13px;
+    padding-left: 10px;
+    margin-bottom: 4px;
+    font-size: 11px;
     color: var(--text-light);
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .experience-details li::before {
     content: '';
     position: absolute;
     left: 0;
-    top: 9px;
-    width: 5px;
-    height: 5px;
+    top: 5px;
+    width: 4px;
+    height: 4px;
     border-radius: 50%;
     background: var(--accent);
 }
 
 .project-item {
-    margin-bottom: 14px;
-    padding: 14px;
+    margin-bottom: 8px;
+    padding: 8px 10px;
     background: var(--sidebar-bg);
-    border-radius: 10px;
-    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    border-left: 2px solid var(--accent);
     transition: all 0.2s ease;
 }
 
@@ -317,38 +317,38 @@ a.contact-item:hover {
 }
 
 .project-title {
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 600;
     color: var(--primary);
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 
 .project-description {
-    font-size: 12px;
+    font-size: 10px;
     color: var(--text-light);
-    margin-bottom: 10px;
-    line-height: 1.55;
+    margin-bottom: 6px;
+    line-height: 1.45;
 }
 
 .project-tech {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 4px;
 }
 
 .project-tech span {
-    font-size: 10px;
-    padding: 4px 10px;
+    font-size: 8px;
+    padding: 2px 6px;
     background: white;
     color: var(--tag-text);
-    border-radius: 5px;
+    border-radius: 3px;
     font-weight: 600;
     border: 1px solid var(--border);
     letter-spacing: 0.3px;
 }
 
 .skills-group {
-    margin-bottom: 14px;
+    margin-bottom: 10px;
 }
 
 .skills-group:last-child {
@@ -356,32 +356,32 @@ a.contact-item:hover {
 }
 
 .skills-category {
-    font-size: 10px;
+    font-size: 9px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     color: var(--text-muted);
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 .skills-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 4px;
 }
 
 .skill-tag {
-    font-size: 11px;
-    padding: 5px 11px;
+    font-size: 9px;
+    padding: 3px 7px;
     background: var(--tag-bg);
     color: var(--tag-text);
-    border-radius: 5px;
+    border-radius: 4px;
     font-weight: 600;
     border: 1px solid rgba(59, 130, 246, 0.15);
 }
 
 .proficiency-item {
-    margin-bottom: 12px;
+    margin-bottom: 7px;
 }
 
 .proficiency-item:last-child {
@@ -391,23 +391,23 @@ a.contact-item:hover {
 .proficiency-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .proficiency-name {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     color: var(--primary);
 }
 
 .proficiency-percent {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
     color: var(--accent);
 }
 
 .proficiency-bar {
-    height: 6px;
+    height: 5px;
     background: var(--border);
     border-radius: 3px;
     overflow: hidden;
@@ -418,37 +418,6 @@ a.contact-item:hover {
     background: linear-gradient(90deg, var(--accent) 0%, #6366f1 100%);
     border-radius: 3px;
     transition: width 1s ease;
-}
-
-.cert-item {
-    margin-bottom: 10px;
-    padding: 10px 12px;
-    background: var(--sidebar-bg);
-    border-radius: 8px;
-    border-left: 2px solid var(--accent);
-}
-
-.cert-item:last-child {
-    margin-bottom: 0;
-}
-
-.cert-name {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--primary);
-}
-
-.cert-issuer {
-    font-size: 12px;
-    color: var(--accent);
-    font-weight: 500;
-}
-
-.cert-year {
-    font-size: 11px;
-    color: var(--text-muted);
-    margin-top: 2px;
-    font-weight: 500;
 }
 
 .link-item {
@@ -477,13 +446,13 @@ a.contact-item:hover {
 
 @media (max-width: 768px) {
     .resume-header {
-        padding: 35px 25px;
+        padding: 22px 20px;
     }
 
     .header-content {
         flex-direction: column-reverse;
         align-items: flex-start;
-        gap: 20px;
+        gap: 14px;
     }
 
     .header-right {
@@ -491,21 +460,21 @@ a.contact-item:hover {
     }
 
     .name {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .title {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .contact-info {
-        gap: 10px;
+        gap: 8px;
     }
 
     .resume-body {
         flex-direction: column;
-        padding: 30px 25px;
-        gap: 35px;
+        padding: 16px 18px;
+        gap: 20px;
     }
 
     .side-column {
@@ -513,10 +482,10 @@ a.contact-item:hover {
     }
 
     .print-btn {
-        top: 10px;
+        bottom: 10px;
         right: 10px;
-        padding: 10px 18px;
-        font-size: 12px;
+        padding: 8px 14px;
+        font-size: 11px;
     }
 }
 
@@ -537,20 +506,19 @@ a.contact-item:hover {
     }
 
     .resume-header {
-        padding: 35px 45px;
+        padding: 18px 24px;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
     }
 
     .resume-body {
-        padding: 35px 45px;
+        padding: 16px 22px;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
     }
 
     .avatar,
     .project-item,
-    .cert-item,
     .skill-tag,
     .proficiency-fill,
     .section-title::after {
@@ -559,7 +527,7 @@ a.contact-item:hover {
     }
 
     @page {
-        margin: 0.6cm;
+        margin: 0.5cm;
         size: A4;
     }
 }
