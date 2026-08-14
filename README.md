@@ -1,10 +1,10 @@
 # 🚀 HTML5, CSS3 & JavaScript Projects Collection
 
-Welcome to my **HTML CODES** repository! This is a comprehensive collection of **12 interactive web applications, frontend games, utility tools, and professional templates** that I built while mastering modern web development.
+Welcome to my **HTML CODES** repository! This is a comprehensive collection of **10+ interactive Web Applications,  Games, Utility Tools, and Professional Templates** that i built while mastering modern web development.
 
 ---
 
-## 💻 Tech Stack Used
+## 💻 Tech Stack Used:-
 
 | Technology | Purpose |
 | :--- | :--- |
@@ -14,7 +14,7 @@ Welcome to my **HTML CODES** repository! This is a comprehensive collection of *
 
 ---
 
-## 📦 Project Highlights (What's Inside)
+## 📦 Project Highlights (What's Inside):-
 
 
 1.  **Games Folder**: A collection of fun, interactive, and responsive browser-based mini-games.
@@ -32,7 +32,7 @@ Welcome to my **HTML CODES** repository! This is a comprehensive collection of *
 
 ---
 
-## 🚀 How to Run These Projects Locally
+## 🚀 How to Run These Projects Locally:-
 
 1. **Clone the repository:**
    ```bash
@@ -48,7 +48,7 @@ Welcome to my **HTML CODES** repository! This is a comprehensive collection of *
 
 ---
 
-## 🤝 Yours Contribution & Feedback
+## 🤝 Yours Contribution & Feedback:-
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
 
