@@ -10,25 +10,25 @@ Welcome to my **HTML CODES** repository! This is a comprehensive collection of *
 | :--- | :--- |
 | **HTML5** | For robust, structured, and semantic web pages. |
 | **CSS3** | For modern layout styling, responsiveness, and smooth transitions. |
-| **JavaScript (ES6+)** | For adding core programming logic, interactivity, and dynamic features. |
+| **JavaScript** | For adding core programming logic, interactivity, and dynamic features. |
 
 ---
 
 ## 📦 Project Highlights (What's Inside)
 
 
-* **Games Folder**: A collection of fun, interactive, and responsive browser-based mini-games.
-* **Hacking Simulator**: A terminal-style visual simulation that mimics a classic hacking interface.
-* **Colour Palate Generator**: A handy tool to generate, lock, and explore beautiful color schemes for designs.
-* **Password Generator**: A secure tool to generate highly customizable, strong, and random passwords.
-* **Advanced Digital Clock**: A clean, modern clock interface displaying real-time updates.
-* **Typing Speed Checker**: An interactive web app to test and calculate words-per-minute (WPM) typing speed.
-* **To Do List**: A feature-rich task manager with add, delete, complete, filter (all/active/completed), clear completed, and LocalStorage persistence.
-* **Personal Portfolio**: A modern, clean, and fully responsive pportfolio to showcase my skills and projects.
-* **Digital Resume**: A well-structured, neat web resume template for professional use.
-* **Student Registration Form**: A beautiful, styled form with frontend input fields for student data.
-* **Shree Palace Room Booking**: A complete frontend web interface designed for hotel and room reservations.
-* **Online Gift Store (Named:- **Gift Bloom**)**: E-Commerce Website.
+1.  **Games Folder**: A collection of fun, interactive, and responsive browser-based mini-games.
+2.  **Hacking Simulator**: A terminal-style visual simulation that mimics a classic hacking interface.
+3.  **Colour Palate Generator**: A handy tool to generate, lock, and explore beautiful color schemes for designs.
+4.  **Password Generator**: A secure tool to generate highly customizable, strong, and random passwords.
+5.  **Advanced Digital Clock**: A clean, modern clock interface displaying real-time updates.
+6.  **Typing Speed Checker**: An interactive web app to test and calculate words-per-minute (WPM) typing speed.
+7.  **To Do List**: A feature-rich task manager with add, delete, complete, filter (all/active/completed), clear completed, and LocalStorage persistence.
+8.  **Personal Portfolio**: A modern, clean, and fully responsive pportfolio to showcase my skills and projects.
+9.  **Digital Resume**: A well-structured, neat web resume template for professional use.
+10. **Student Registration Form**: A beautiful, styled form with frontend input fields for student data.
+11. **Shree Palace Room Booking**: A complete frontend web interface designed for hotel and room reservations.
+12. **Online Gift Store (Named:- **Gift Bloom**)**: E-Commerce Website.
 
 ---
 
@@ -48,13 +48,13 @@ Welcome to my **HTML CODES** repository! This is a comprehensive collection of *
 
 ---
 
-## 🤝 Contribution & Feedback
+## 🤝 Yours Contribution & Feedback
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
 
 ⭐ **If you like this collection, don't forget to give this repository a Star!**
 
 ---
-👤 **Developer:** **Rishu Kushwaha**  
+👤 **Rishu Kushwaha**  
 📧 **Email:** [rishukushwaha542@gmail.com](mailto:rishukushwaha542@gmail.com)  
 🌐 **GitHub:** [@code-with-rishu](https://github.com)
