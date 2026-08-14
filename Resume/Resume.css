@@ -150,6 +150,17 @@ body {
     color: #60a5fa;
 }
 
+.contact-item a {
+    color: #e2e8f0;
+    text-decoration: none;
+    opacity: 0.85;
+}
+
+.contact-item a:hover {
+    color: #93c5fd;
+    text-decoration: underline;
+}
+
 .header-right {
     flex-shrink: 0;
     margin-left: 30px;
