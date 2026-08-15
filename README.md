@@ -14,21 +14,31 @@ Welcome to my **HTML CODES** repository! This is a comprehensive collection of *
 
 ---
 
-## 📦 Project Highlights (What's Inside):-
+## 📦 Projects inside:-
 
 
-1.  **Games Folder**: A collection of fun, interactive, and responsive browser-based mini-games.
-2.  **Hacking Simulator**: A terminal-style visual simulation that mimics a classic hacking interface.
-3.  **Colour Palate Generator**: A handy tool to generate, lock, and explore beautiful color schemes for designs.
-4.  **Password Generator**: A secure tool to generate highly customizable, strong, and random passwords.
-5.  **Advanced Digital Clock**: A clean, modern clock interface displaying real-time updates.
-6.  **Typing Speed Checker**: An interactive web app to test and calculate words-per-minute (WPM) typing speed.
-7.  **To Do List**: A feature-rich task manager with add, delete, complete, filter (all/active/completed), clear completed, and LocalStorage persistence.
-8.  **Personal Portfolio**: A modern, clean, and fully responsive pportfolio to showcase my skills and projects.
-9.  **Digital Resume**: A well-structured, neat web resume template for professional use.
-10. **Student Registration Form**: A beautiful, styled form with frontend input fields for student data.
-11. **Shree Palace Room Booking**: A complete frontend web interface designed for hotel and room reservations.
-12. **Online Gift Store (Named:- **Gift Bloom**)**: E-Commerce Website.
+1. **Crossy Road Game**
+2. **2048 Game**
+3. **Doodle Jump Game**
+4. **Nitro Racing Game**
+5. **Solar Smash Game**
+6. **Tic Tac Toe**
+7. **Water Sort Game**
+8. **PacMan Game**
+9. **Bubble Shooting Game**
+10. **Tank War Game**
+11. **Hacking Simulator**
+12. **Colour Palate Generator**
+13. **Password Generator**
+14. **Advanced Digital Clock**
+15. **Typing Speed Checker**
+16. **To Do List**
+17. **Portfolio**
+18. **Resume**
+19. **Student Registration Form**
+20. **Shree Palace Room Booking**
+21. **Online Gift Store**
+22. **Independence Day**
 
 ---
 
